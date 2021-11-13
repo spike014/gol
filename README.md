@@ -1,7 +1,12 @@
 # gol
 gol is log, log for gin and gorm.
 
-## Installtion
+- Rotating logs by date
+- Using log in standard lib
+
+---
+
+## Installation
 ```bash
 go get github.com/yaoming00/gol 
 ```
@@ -66,3 +71,7 @@ func getDB() {
 	}
 }
 ```
+
+## Thanks
+
+- [file-rotatelogs](https://github.com/lestrrat-go/file-rotatelogs)
