@@ -2,7 +2,6 @@
 gol is log, log for gin and gorm.
 
 - Rotating logs by date
-- Using log in standard lib
 
 ---
 
@@ -30,7 +29,7 @@ var (
 	gin.DefaultErrorWriter = gol.SetLogger(runMode, ServerLogger)
 ```
 
-// log error by log.Println()
+#### log error by log.Println()
 ```golang
 // main
 	log.SetOutput(
