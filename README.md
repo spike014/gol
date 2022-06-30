@@ -1,9 +1,16 @@
 # gol
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/yaoming00/gol)](https://goreportcard.com/report/github.com/yaoming00/gol)
+![CI](https://github.com/spike014/gol/actions/workflows/main.yml/badge.svg?branch=master)
+
+
 gol is log, log for gin and gorm.
 
 - Rotating logs by date
 
 ---
+
+go 1.16+
 
 ## Installation
 ```bash
