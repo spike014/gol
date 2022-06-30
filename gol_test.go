@@ -20,3 +20,10 @@ func TestGetLogPath(t *testing.T) {
 		assert.NotEqual(t, "", path)
 	})
 }
+
+func TestPathExists(t *testing.T) {
+	t.Run("neg", func(t *testing.T) {
+		exist := pathExists("/home")
+		assert.False(t, exist)
+	})
+}
