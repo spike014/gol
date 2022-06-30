@@ -13,3 +13,10 @@ func TestGetExcutePath(t *testing.T) {
 		assert.NotEqual(t, "", path)
 	})
 }
+
+func TestGetLogPath(t *testing.T) {
+	t.Run("pos", func(t *testing.T) {
+		path := getLogPath()
+		assert.NotEqual(t, "", path)
+	})
+}
