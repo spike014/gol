@@ -1,8 +1,9 @@
 # gol
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/yaoming00/gol)](https://goreportcard.com/report/github.com/yaoming00/gol)
-![CI](https://github.com/spike014/gol/actions/workflows/main.yml/badge.svg?branch=master)
-
+![CI Actions](https://github.com/spike014/gol/actions/workflows/main.yml/badge.svg??branch=master)
+![Test Actions](https://github.com/spike014/gol/actions/workflows/test.yml/badge.svg??branch=master)
+[![codecov](https://codecov.io/gh/spike014/gol/branch/master/graph/badge.svg?token=62JSDGNHB5)](https://codecov.io/gh/spike014/gol)
 
 gol is log, log for gin and gorm.
 
